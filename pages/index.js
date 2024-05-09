@@ -1,8 +1,10 @@
-import Image from "next/image";
-import styled from "./page.module.css";
-import Present from "@/components/Present";
-import Carousel from "@/components/Carousel";
-import News from "@/components/SwiperNews";
+import { Container, Grid, Typography } from '@mui/material'
+import {
+  Carousel,
+  News,
+  SwiperNews,
+} from '/components'
+
 
 export default function Home({data}) {
   return (

@@ -1,8 +1,9 @@
 import { Container, Grid, Typography } from '@mui/material'
+
 import { Pagination, Autoplay } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
+import 'swiper/css/bundle'
 
-import 'swiper/css/bundle';
 import NewsCard from '/components/NewsCard'
 
 export default function News({ title, data, limit, defaultTag }) {
